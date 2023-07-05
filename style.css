@@ -11,96 +11,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {
-    padding: 20px;
-    text-align: center;
-}
-/* Hero */
-.hero{
-    background: url(img/hero-front-page-bg.jpg) center;
-    background-size: cover;
-    height: 100vh;
-  }
-  /* Menu Header Restaurante */
- 
-header.main-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-   
-  .header-wrap{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background-color: #fff;
-    z-index: 999;
-  }
-  .wrap-logo-header{
-    display: flex;
-    align-items: center;
-    flex-basis: 15%;
-  }
-   
-  .logo-header{
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #222;
-  }
-   
-  .nav-header{
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-  .nav-wrap-header{
-    display: flex;
-    flex-basis: 50%;
-  }
-   
-  ul.main-menu{
-    display: flex;
-    width: 100%;
-    z-index: 99;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    font-size: 1.1rem;
-  }
   
-  li.menu-item{
-    margin: .75rem;
-    display: flex;
-  }
-   
-  li.menu-item a{
-    padding: .5rem 1rem;
-    color: #222;
-  }
-   
-  li.menu-item a:hover{
-    color: #FFC300;
-  }
-  i.toggle-menu{
-    display: none;
-    background-color: #fff;
-    border: none;
-    z-index: 9999;
-  }
-   
-  i.toggle-menu img{
-    width: 27px;
-    z-index: 99;
-  }
-   
-  input#check{
-    display: none;
-  }
-  h1{
-    padding: 20px;
-    text-align: center;
-  }
+.main-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+}
+.main-menu ul {
+  display: flex;
+  flex-direction: row;
+
+}
+header .main-menu li a {
+  color: white;
+}
+
+.cabecera1{
+  width: 100%;
+  height: 800px;
+}
+
   section{
     width: 350px;
     display: block;
@@ -110,5 +42,7 @@ header.main-header{
     text-align: justify;
     box-shadow: 10px 10px black;
   }
+
+
 
 

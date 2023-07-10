@@ -46,17 +46,75 @@ header .main-menu li a {
     width: 300px;
     min-height: 300px;
     padding: 20px;
-    border: 2px solid red;
-    background: url();
     
+  }
+  div .one img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
 
+  }
+  div .two img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+ 
+  }
+  div .three img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+ 
+  }
 
+  div .four img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+ 
+  } 
+  div .five img {
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+ 
+  }
+  div .six img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+ 
+  }       
+  div .seven img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+ 
+  }       
 
-
-
-
-  }           {
-
+  div .eight img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+ 
+  }       
+  .grid-container {
+    display: grid;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-rows: 50px 50px 50px 50px 60px 50px 100px; 
+      grid-template-columns: 25% 50% 30% 25%; 
+      } 
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        }
+        img {
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.403);
+        width: 100%;
+        }
   
 
 
